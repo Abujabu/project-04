@@ -1,0 +1,544 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    top: 0;
+    background-color: #ffff;
+}
+.personal{
+    margin-left: 220px;
+    margin-top: 12px;
+}
+
+header div{
+    float: left;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 300px;
+    
+    
+}
+
+.nav ul{
+    list-style: none;
+
+    
+}
+
+.nav ul li{
+    padding: 10px;
+    float: left;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+.nav ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(49, 48, 48);
+    text-transform: uppercase;
+
+}
+
+.nav button{
+    width:170px;
+    height: 35px;
+    margin-top: 12px;
+    color: white;
+    background-color: #009dff;
+    border: none;
+    border-radius: 4%;
+}
+
+.nav button:hover{
+    background-color: #ffff;
+    border: 1px solid #009dff
+    ;
+    color: #009dff
+    ;
+    cursor: pointer;
+    transition: ease 0.5s;
+
+}
+
+.mn img{
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    
+    
+}
+
+.mn{
+    position: relative;
+}
+
+.btxt{
+position: absolute;
+top: 25%;
+padding: 20px;
+margin-left: 190px;
+}
+
+.btxt h1{
+    font-weight: bold;
+    font-size:60px ;
+    color: rgb(43, 43, 43);
+}
+.btxt h3{
+    font-size:60px ;
+    line-height: 0.2;
+}
+
+.btxt p{
+    color: gray;
+    line-height: 0.2;
+}
+
+.btxt button{
+    color: #fff;
+    padding: 18px 44px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border: 0;
+    border: 1px solid transparent;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: #009dff;
+    
+}
+
+.btxt button:hover{
+    background-color: #ffff;
+    border: 1px solid #009dff
+    ;
+    color: #009dff
+    ;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+.second{
+    display: flex;
+    justify-content: space-around;
+    height: 120%;
+    color: white;
+
+}
+
+.second .one i{
+    font-size: 40px;
+    margin-left: 200px;
+}
+
+.second .one h3{
+    margin-left: 200px;
+    font-size:23px ;
+}
+
+
+
+
+.second .one{
+width: 70%;
+background-color: #83c4ff;
+}
+
+.second .one p{
+    width: 60%;
+    margin-left: 200px;
+}
+
+
+.second .one button{
+    margin-left: 200px;
+    background-color: #83c4ff;
+    border: 1px solid #fff;
+    color: white;
+    width: 190px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+
+
+.second .two i{
+    font-size: 40px;
+    margin-left: 200px;
+    margin-left: 20px;
+}
+
+.second .two h3{
+    margin-left: 200px;
+    font-size:23px ;
+    margin-left: 20px;
+}
+
+
+
+
+.second .two{
+width: 30%;
+background-color: #5db2ff
+}
+
+.second .two p{
+    width: 60%;
+    margin-left: 20px;
+}
+
+
+.second .two button{
+    margin-left: 200px;
+    background-color: #5db2ff;
+    border: 1px solid #fff;
+    color: white;
+    width: 190px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.second button:hover{
+    background-color: #fff;
+    color: #5db2ff;
+    border: none;
+    outline: none;
+    transition: ease 0.5s;
+}
+
+.nxtline{
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+}
+
+.txtxs{
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+.txtxs p{
+    font-size: 16px;
+    color: #727272;
+    line-height: 28px;
+    margin-top: 50px;
+}
+
+.txtxs h2{
+    font-size: 18px;
+    font-weight: 400;
+    color: #1F1F1F;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 9px;
+}
+.txtxs h3{
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 10px;
+    line-height: 0.2px;
+    color: #1f1f1f;
+}
+
+.nxtline .pic1 img{
+    width: 270px;
+    margin-top: 80px;
+}
+.nxtline .pic2 img{
+    width: 270px;
+    margin-top: 300px;
+    
+}
+
+.txtxs button{
+    color: #5DB2FF !important;
+    display: inline-block;
+    padding: 9px 24px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #5DB2FF;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+
+.chicks{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 300px;
+
+}
+
+
+.chicks img{
+    width: 300px;
+}
+
+
+.chicks p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #727272;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+.chick{
+    text-align: center;
+    margin-top: 250px;
+
+}
+
+.chick h3{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #1F1F1F;
+    position: relative;
+    z-index: 9;
+    padding-bottom: 15px;
+}
+
+.chick p{
+    font-size: 16px;
+    color: #727272;
+    line-height: 1px;
+    margin-bottom: 0;
+}
+
+.b1{
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 80px;
+box-sizing: border-box;
+overflow: hidden;
+
+}
+
+.b1 img{
+    width: 300px;
+}
+
+.b1 h3{
+    font-size: 22px;
+    color: #1F1F1F;
+    line-height: 33px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.b1 p{
+    font-size: 15px;
+    line-height: 9px;
+    color: #727272;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.b1 a{
+    font-size: 16px;
+    font-style: normal;
+    margin-left: 30px;
+}
+
+
+.n1{
+    margin-left: 200px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.n2{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.n3{
+    margin-right: 200px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*nxt*/
+
+
+.b2{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    }
+    
+    .b2 img{
+        width: 300px;
+    }
+    
+    .b2 h3{
+        font-size: 22px;
+        color: #1F1F1F;
+        line-height: 33px;
+        font-weight: 500;
+        margin-left: 30px;
+    }
+    
+    .b2 p{
+        font-size: 15px;
+        line-height: 9px;
+        color: #727272;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+    
+    .b2 a{
+        font-size: 16px;
+        font-style: normal;
+        margin-left: 30px;
+    }
+    
+    
+    .m1{
+        margin-left: 200px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    .m2{
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    
+    .m3{
+        margin-right: 200px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+
+.v3{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+}
+.text3{
+    margin-left: 230px;
+    overflow: hidden;
+}
+
+.text3 i{
+    font-size: 40px;
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 50%;
+}
+
+.text3 h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #1F1F1F;
+    margin-top: 16px;
+    margin-bottom: 14px;
+}
+
+.text3 p{
+    font-size: 16px;
+    font-weight: 300;
+    color: gray;
+    line-height: 20px;
+    width: 90%;
+}
+
+.imgv3 img{
+    width: 430px;
+    margin-right: 200px;
+}
+
+
+.doctors{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 250px;
+    overflow: hidden;
+}
+
+.doctors img{
+    width: 200px;
+}
+
+.doctors h3{
+   margin-left: 40px;
+   color: #313131;
+}
+
+.doctors h4{
+    font-size: 12px;
+    color: #727272;
+    margin-left: 55px;
+}
+
+.k1 {
+    margin-left: 150px;
+}
+
+.k4{
+    margin-right: 150px;
+}
+
+.dtext{
+    font-size: 23px;
+    font-weight: 500;
+    color: #1F1F1F;
+    margin-left: 150px;
+     
+}
